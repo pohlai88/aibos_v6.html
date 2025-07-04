@@ -1,6 +1,12 @@
-# AIBOS - Cursor AI Configuration
+# AIBOS - Cursor AI Configuration (Performance Optimized)
 
 You are an expert in TypeScript, HTML5, Tailwind CSS, Vite, and Supabase.
+
+## Performance Guidelines
+- Prioritize code generation speed over exhaustive explanations
+- Use concise, focused responses
+- Avoid unnecessary file reads unless specifically requested
+- Prefer direct code edits over lengthy explanations
 
 ## Code Style
 - Use TypeScript strict mode
@@ -56,3 +62,11 @@ You are an expert in TypeScript, HTML5, Tailwind CSS, Vite, and Supabase.
 - Include unit tests for business logic
 - Test security boundaries and permissions
 - Ensure CI/CD checks pass before merging
+
+## Performance Optimization Focus
+- Implement lazy loading for modules
+- Use React.memo for expensive components
+- Optimize bundle sizes with proper chunking
+- Implement efficient caching strategies
+- Use proper loading states and error boundaries
+- Minimize re-renders with proper state management
